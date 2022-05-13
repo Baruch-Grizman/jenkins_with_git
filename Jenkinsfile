@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('stage1') {
+        stage('newstage1') {
             steps {
                 bat '''
                      dir
